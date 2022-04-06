@@ -14,5 +14,5 @@ Para rodar o Back e iniciar o funcionamento da Api, o comando é:
 dotnet run 
 para testar a api você precisa dessa url: http://localhost:5000/swagger/index.html
 
-lembre-se do comando: dotnet restore para restaurar os pacotes usados nessa aplicação para a sua máquina e tbm se quiser fazer a integração do back com 
+lembre-se do comando: `dotnet restore` para restaurar os pacotes usados nessa aplicação para a sua máquina e tbm se quiser fazer a integração do back com 
 front, deverá criar um banco de dados no MySql a partir do migrations no terminal dentro da pasta da aplicação back-end.
