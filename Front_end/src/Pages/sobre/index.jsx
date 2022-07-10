@@ -153,7 +153,7 @@ function Sobre() {
               </FormControl>
             </Flex>
 
-            <Comentarios
+            <Comentarios  
               comentario={comentario}
               setComentario={setComentario}
             />

@@ -538,6 +538,18 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/5.0.15": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "5.0.15"
+        },
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -3509,6 +3521,30 @@
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.5.0.15.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/5.0.15": {
+      "sha512": "BDJ/l69JeZNJtd+dqfnD6UxC5CXnqsZ4Da0Uw5fKQ4iqvoqnYsTbviA/OvP+sOsNJhZdVzS/wGqrER4bgyfDSg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/5.0.15",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/_._",
+        "microsoft.entityframeworkcore.tools.5.0.15.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -9133,8 +9169,10 @@
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNet.WebApi.Cors >= 5.2.7",
+      "Microsoft.EntityFrameworkCore >= 5.0.15",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.15",
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.15",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.4",
       "Swashbuckle.AspNetCore >= 5.6.3"
@@ -9146,11 +9184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj",
+      "projectUniqueName": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj",
       "projectName": "PmenosLab",
-      "projectPath": "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj",
+      "projectPath": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj",
       "packagesPath": "C:\\Users\\116134\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\116134\\hackathon_up\\Back_end\\obj\\",
+      "outputPath": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\116134\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9161,7 +9199,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
       },
       "frameworks": {
         "net5.0": {
@@ -9191,11 +9230,19 @@
             "target": "Package",
             "version": "[5.2.7, )"
           },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.15, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[5.0.15, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.15, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[5.0.15, )"
           },

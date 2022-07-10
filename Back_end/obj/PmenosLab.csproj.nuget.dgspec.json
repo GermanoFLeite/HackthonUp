@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj": {}
+    "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj": {}
   },
   "projects": {
-    "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj": {
+    "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj",
+        "projectUniqueName": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj",
         "projectName": "PmenosLab",
-        "projectPath": "C:\\Users\\116134\\hackathon_up\\Back_end\\PmenosLab.csproj",
+        "projectPath": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\PmenosLab.csproj",
         "packagesPath": "C:\\Users\\116134\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\116134\\hackathon_up\\Back_end\\obj\\",
+        "outputPath": "C:\\Users\\116134\\Desktop\\hackathon_up\\Back_end\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\116134\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
         },
         "frameworks": {
           "net5.0": {
@@ -52,11 +53,19 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[5.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.15, )"
             },
